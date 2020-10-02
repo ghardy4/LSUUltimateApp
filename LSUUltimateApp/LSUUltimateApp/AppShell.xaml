@@ -82,11 +82,11 @@
     <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
         <ShellContent Title="About" Icon="tab_about.png" Route="AboutPage" ContentTemplate="{DataTemplate local:AboutPage}" />
         <ShellContent Title="Browse" Icon="tab_feed.png" ContentTemplate="{DataTemplate local:ItemsPage}" />
-        <ShellContent Title="Social Media" Icon="tab_feed.png" ContentTemplate="{DataTemplate local:ItemsPage}" />
-        <ShellContent Title="Calendar" Icon="tab_feed.png" ContentTemplate="{DataTemplate local:ItemsPage}" />
-        <ShellContent Title="Store" Icon="tab_feed.png" ContentTemplate="{DataTemplate local:ItemsPage}" />
-        <ShellContent Title="Photos" Icon="tab_feed.png" ContentTemplate="{DataTemplate local:ItemsPage}" />
-        <ShellContent Title="Player Login" Icon="tab_feed.png" ContentTemplate="{DataTemplate local:ItemsPage}" />
+        <ShellContent Title="Social Media" Icon="tab_feed.png" ContentTemplate="{DataTemplate local:SocialMediaPage}" />
+        <ShellContent Title="Calendar" Icon="tab_feed.png" ContentTemplate="{DataTemplate local:CalendarPage}" />
+        <ShellContent Title="Store" Icon="tab_feed.png" ContentTemplate="{DataTemplate local:StorePage}" />
+        <ShellContent Title="Photos" Icon="tab_feed.png" ContentTemplate="{DataTemplate local:PhotoPage}" />
+        <ShellContent Title="Player Login" Icon="tab_feed.png" ContentTemplate="{DataTemplate local:PlayerLoginPage}" />
     </FlyoutItem>
 
     <!-- When the Flyout is visible this will be a menu item you can tie a click behavior to  -->
